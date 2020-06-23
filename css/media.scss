@@ -1,0 +1,37 @@
+// Extra large
+@media only screen and (max-width:1199px){
+.Kryg{
+	visibility:hidden;
+}
+.masanger{
+	visibility:hidden;
+}
+.as{
+	font-size:35px;
+}
+}
+
+// Large
+@media only screen and (max-width:991px){
+	ul{
+		margin-left:-500px;
+	}
+	.text{
+		font-size:25px;
+	}
+}
+
+// Medium 
+@media only screen and (max-width:767px){
+
+}
+
+// Small
+@media only screen and (max-width:575px){
+
+}
+
+// Iphone Mobile 
+@media only screen and (max-width:320px){
+
+}

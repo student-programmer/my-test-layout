@@ -1,0 +1,52 @@
+@mixin grid-position{
+	display:grid;
+	align-items:center;
+	justify-items:center;
+}
+@mixin size{
+	position:absolute;
+	font-size:93px;
+	left:50%;
+	font-weight:bold;
+	transform:translateX(-50%);
+}
+@mixin circle {
+	width:25px;
+	height:25px;
+	background-color:#00bff2;
+	border-radius:50%;
+	position:absolute;
+}
+@mixin text{
+	font-size:20px;
+	text-align:center;
+	position:absolute;
+	left:50%;
+	transform:translateX(-50%);
+	font-weight:bold;
+}
+@mixin center{
+	left:50%;
+	transform:translateX(-50%);
+}
+@mixin block8 ($width){
+	color:#a7a8ab;
+	font-size:20px;
+	position:absolute;
+	width:$width;
+}
+@mixin june ($top, $left){
+	color:#a7a8ab;
+	font-size:30px;
+	position:absolute;
+	top:$top;
+	left:$left;
+}
+@mixin june-text($top, $left){
+	font-size:30px;
+	color:#fefefe;
+	position:absolute;
+	top:$top;
+	left:$left;
+	
+}
